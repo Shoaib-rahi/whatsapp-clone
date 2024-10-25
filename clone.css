@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.part-1{
+    width: 100%;
+    height: 30vh;
+    background-color: #065B52;
+}
+.part-1 .part1-top{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+}
+.part1-top .whatsapp-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.part1-top .whatsapp-icon{
+    display: flex;
+    gap: 10px;
+}
+.whatsapp-icon{
+    font-size: 30px;
+}
+.whatsapp-icon i{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+.whatsapp-icon i:hover{
+
+    background-color: rgba(219, 219, 219, 0.349);
+}
+
+
+.part-1  .part1-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.part1-bottom .chats,.status,.calls{
+    font-size: 30px;
+    transition: all .4s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+.chats:hover{
+    border-bottom: 2px solid white;
+}
+.status:hover{
+    border-bottom: 2px solid white;
+}
+.calls:hover{
+    border-bottom: 2px solid white;
+}
+.part-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.part-2 .profile-data{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+    padding-left: 15px;
+
+}
+.profile-data .profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid green;
+    padding: 5px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-data h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.part-1 .part1-top .input{
+    width: 800px;
+    height: 50px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0px 25px;
+    border: 3px solid rgb(48, 141, 48);
+}
+.input input{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+  width: 100%;
+  border: none;
+  outline: none;
+
+}
